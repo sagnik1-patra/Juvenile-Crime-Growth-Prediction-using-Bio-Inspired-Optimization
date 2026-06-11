@@ -1,0 +1,13 @@
+project: Juvenile Crime Growth Prediction using Bio-Inspired Optimization
+author: Sagnik Patra
+dataset: C:\Users\NXTWAVE\Downloads\Juvenile Crime Growth Prediction using Bio-Inspired
+  Optimization\Table_30_1976.csv
+output_directory: C:\Users\NXTWAVE\Downloads\Juvenile Crime Growth Prediction using
+  Bio-Inspired Optimization
+prefix: juvenile_
+target_regression: Juvenile Crime Growth Rate
+target_classification: Growth Class
+optimization_algorithm: PSO
+models:
+  regression: RandomForestRegressor
+  classification: RandomForestClassifier

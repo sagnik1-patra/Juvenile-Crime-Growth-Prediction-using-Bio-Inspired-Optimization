@@ -1,0 +1,22 @@
+project: Juvenile Crime Growth Prediction using Bio-Inspired Optimization
+author: Sagnik Patra
+base_directory: C:\Users\NXTWAVE\Downloads\Juvenile Crime Growth Prediction using
+  Bio-Inspired Optimization
+dataset_path: C:\Users\NXTWAVE\Downloads\Juvenile Crime Growth Prediction using Bio-Inspired
+  Optimization\Table_30_1976.csv
+target_column: Juvenile Crime Growth Rate
+optimization:
+  algorithm: PSO
+  particles: 20
+  iterations: 30
+models:
+  machine_learning: RandomForestRegressor
+  deep_learning: Dense Neural Network
+outputs:
+  h5_model: bio_deep_learning_model.h5
+  pkl_model: bio_random_forest_model.pkl
+  scaler: bio_scaler.pkl
+  json_summary: bio_result_summary.json
+  yaml_config: bio_config.yaml
+  predictions: bio_predictions.csv
+  results: bio_model_results.csv

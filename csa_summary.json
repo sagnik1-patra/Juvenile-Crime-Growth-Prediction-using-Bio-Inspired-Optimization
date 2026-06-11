@@ -1,0 +1,29 @@
+{
+    "project_name": "Juvenile Crime Growth Prediction using CSA",
+    "author": "Sagnik Patra",
+    "dataset_path": "C:\\Users\\NXTWAVE\\Downloads\\Juvenile Crime Growth Prediction using Bio-Inspired Optimization\\Table_30_1976.csv",
+    "prefix": "csa_",
+    "optimization_algorithm": "Crow Search Algorithm",
+    "selected_features": [
+        "Population in Millions (Estimated mid-year)",
+        "Total juvenile crime cases under IPC",
+        "Percentage of juvenile crime to total cognizable crime",
+        "Volume of juvenile crime per lakh of population"
+    ],
+    "regression_metrics": {
+        "MAE": 8.639861073338617,
+        "MSE": 89.33336632571934,
+        "RMSE": 9.451632997832668,
+        "R2 Score": 0.2142591969303792,
+        "Accuracy": 21.42591969303792
+    },
+    "classification_metrics": {
+        "Accuracy": 33.33333333333333,
+        "Classes": [
+            "Decline",
+            "High Growth",
+            "Low Growth",
+            "Medium Growth"
+        ]
+    }
+}
